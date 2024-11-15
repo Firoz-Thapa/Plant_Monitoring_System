@@ -1,4 +1,3 @@
-// src/components/Notifications/AlertNotification.js
 import React from 'react';
 import { Alert, AlertDescription } from '../ui/Alert';
 import { Bell } from 'lucide-react';

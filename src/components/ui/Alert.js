@@ -1,4 +1,3 @@
-// src/components/ui/Alert.js
 import React from 'react';
 
 export const Alert = ({ children }) => (

@@ -1,9 +1,6 @@
-// src/firebaseConfig.js
 import { initializeApp } from "firebase/app";
-import { getDatabase } from "firebase/database";  // Import the Realtime Database
-// import { getAnalytics } from "firebase/analytics"; // Optional, only if you want analytics
+import { getDatabase } from "firebase/database";  
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyC5dpYtJ_zdQ7Ub8XrJ-S8ITGq5S0WaiFg",
   authDomain: "plant-monitoring-system-6ef51.firebaseapp.com",
@@ -14,15 +11,8 @@ const firebaseConfig = {
   appId: "1:1073278823268:web:3ce9f3d68c1b31a6c32871",
   measurementId: "G-RWRCK18E82"
 };
-
-
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Initialize Realtime Database and export it
-const database = getDatabase(app);  // Initialize the Realtime Database
-
-// Optional: Initialize Analytics if you need it
-// const analytics = getAnalytics(app);
+const database = getDatabase(app);  
 
 export { database };
