@@ -62,3 +62,39 @@ else:
         
         # Wait a bit before next reading
         time.sleep(2)
+
+
+
+##import urequests
+##import time
+##import machine
+##
+### Sensor pin setup
+##soil_sensor = machine.ADC(machine.Pin(26))  # Example pin (change if needed)
+##
+### Backend API endpoint
+##url = "http://your-server-ip:3001/moisture"  # Replace with your backend server's IP
+##
+### Function to read soil moisture
+##def read_soil_moisture():
+##    raw_value = soil_sensor.read_u16()  # ADC reading
+##    moisture = (raw_value / 65535) * 100  # Convert to percentage
+##    return moisture
+##
+### Send data to the backend
+##def send_data(moisture):
+##    data = {"value": moisture}
+##    try:
+##        response = urequests.post(url, json=data)
+##        print(f"Response: {response.status_code}")
+##        response.close()
+##    except Exception as e:
+##        print(f"Error sending data: {e}")
+##
+### Main loop
+##while True:
+##    moisture = read_soil_moisture()
+##    print(f"Soil Moisture: {moisture}%")
+##    send_data(moisture)
+##    time.sleep(10)  # Send data every 10 seconds
+##
