@@ -5,7 +5,7 @@
 //
 //// InfluxDB configuration
 //const url = 'http://localhost:8086';
-//const token = 'XCatDggVjAP3fISlHktNZHvZ51M-pnKHpvD34r4S7G5GytF5Fy_cUr4jxftUzE2UVv4o2nccSzXxasIiruwEMA==';
+//const token = 'Your token';
 //const org = 'LAB';
 //const bucket = 'plant-monitoring-system';
 //
@@ -104,7 +104,7 @@ import { InfluxDB, Point } from '@influxdata/influxdb-client';
 
 // InfluxDB Configuration
 const url = 'http://localhost:8086'; // Replace with your InfluxDB URL
-const token = 'XCatDggVjAP3fISlHktNZHvZ51M-pnKHpvD34r4S7G5GytF5Fy_cUr4jxftUzE2UVv4o2nccSzXxasIiruwEMA=='; // Replace with your token
+const token = 'Yourtoken'; // Replace with your token
 const org = 'LAB'; // Replace with your organization name
 const bucket = 'plant-monitoring-system'; // Replace with your bucket name
 
