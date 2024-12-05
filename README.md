@@ -22,7 +22,7 @@ The **Plant Monitoring System** is an IoT solution designed to monitor the healt
 - **Database:** InfluxDB for time-series data storage.
 
 ### Frontend:
-- **HTML/CSS/JavaScript:** A simple and responsive dashboard for visualizing data.
+- **React:** A simple and responsive dashboard for visualizing data.
 
 ### Cloud Platform:
 - **Virtual Private Server (VPS):** Hosted on an Ubuntu 24.04 LTS instance.
