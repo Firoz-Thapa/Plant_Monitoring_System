@@ -71,8 +71,8 @@ import urequests
 import network
 
 # Wi-Fi Setup
-ssid = "Firoz thapa"  # Replace with your Wi-Fi SSID
-password = "Firoz123"  # Replace with your Wi-Fi password
+ssid = "ASUS_2C"  # Replace with your Wi-Fi SSID
+password = "Firoz@123"  # Replace with your Wi-Fi password
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
@@ -84,7 +84,7 @@ while not wlan.isconnected():
 print("Connected to Wi-Fi:", wlan.ifconfig())
 
 # Backend API Endpoint (InfluxDB via Node.js)
-url = "http://http://localhost:8086///moisture"  # Replace with your backend server IP and port
+url = "http://192.168.1.22:3001/moisture"  # Replace with your backend server IP and port
 
 # Initialize the moisture sensor on Pin 26 (ADC0)
 moisture_sensor = ADC(Pin(26))
