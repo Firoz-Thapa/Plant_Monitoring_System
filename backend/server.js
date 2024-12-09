@@ -5,10 +5,10 @@ import { WebSocketServer } from 'ws';
 import { InfluxDB, Point } from '@influxdata/influxdb-client';
 
 // InfluxDB Configuration
-const url = 'http://firoz.northeurope.cloudapp.azure.com:8086/';
-const token = 'XCatDggVjAP3fISlHktNZHvZ51M-pnKHpvD34r4S7G5GytF5Fy_cUr4jxftUzE2UVv4o2nccSzXxasIiruwEMA==';
-const org = 'LAB';
-const bucket = 'plant-monitoring-system';
+const url = 'Your url';
+const token = 'your token';
+const org = 'your organization';
+const bucket = 'your bucket';
 
 const client = new InfluxDB({ url, token });
 const writeApi = client.getWriteApi(org, bucket);
