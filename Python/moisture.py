@@ -165,14 +165,14 @@ import network
 import ubinascii
 
 # Wi-Fi Setup
-ssid = "Firoz thapa"  # Replace with your Wi-Fi SSID
-password = "Firoz123"  # Replace with your Wi-Fi password
+ssid = "SSID"  # Replace with your Wi-Fi SSID
+password = "Password"  # Replace with your Wi-Fi password
 
 # InfluxDB Configuration
-INFLUXDB_URL = "http://firoz.northeurope.cloudapp.azure.com:8086"
-INFLUXDB_BUCKET = "plant-monitoring-system"  # Replace with your bucket name
-INFLUXDB_ORG = "LAB"  # Replace with your organization
-INFLUXDB_TOKEN = "XCatDggVjAP3fISlHktNZHvZ51M-pnKHpvD34r4S7G5GytF5Fy_cUr4jxftUzE2UVv4o2nccSzXxasIiruwEMA=="  # Replace with your InfluxDB token
+INFLUXDB_URL = "your Url"
+INFLUXDB_BUCKET = "your bucket"  # Replace with your bucket name
+INFLUXDB_ORG = "Your Organization"  # Replace with your organization
+INFLUXDB_TOKEN = "your influx db token"  # Replace with your InfluxDB token
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
