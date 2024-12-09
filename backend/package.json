@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@influxdata/influxdb-client": "^1.35.0",
-    "express": "^4.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
     "nodemon": "^3.1.7",
     "ws": "^8.18.0"
   }

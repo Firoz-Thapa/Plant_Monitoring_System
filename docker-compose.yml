@@ -1,32 +1,27 @@
-#version: '3'
-#services:
-#  frontend:
-#    build:
-#      context: ./frontend
-#      dockerfile: Dockerfile
-#    ports:
-#      - "3000:80"
-#  backend:
-#    build:
-#      context: ./backend
-#      dockerfile: Dockerfile
-#    ports:
-#      - "5000:5000"
-
-version: '3'
 services:
-  backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    ports:
-      - "5000:5000"
-    restart: always
-
   frontend:
     build:
-      context: ./frontend
+      context: ./frontend  # Path to your frontend directory
       dockerfile: Dockerfile
     ports:
-      - "80:80"
-    restart: always
+      - "3000:3000"  # Expose frontend on port 3000
+    volumes:
+      - ./frontend:/app  # Mount local frontend code into the container
+      - /app/node_modules
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:3001  # Backend URL for the frontend
+
+  backend:
+    build:
+      context: ./backend  # Path to your backend directory
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"  # Expose backend on port 3001
+    volumes:
+      - ./backend:/app  # Mount local backend code into the container
+      - /app/node_modules
+    environment:
+      - INFLUXDB_URL=http://localhost:8086  # Example environment variable
+      - INFLUXDB_TOKEN=your-influxdb-token
+      - PORT=3001
+

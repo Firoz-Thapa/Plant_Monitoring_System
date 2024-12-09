@@ -1,13 +1,22 @@
-# Step 1: Build the React app
-FROM node:16 AS build
+# Use Node.js for building the frontend
+FROM node:20 AS build
+
+# Set the working directory in the container
 WORKDIR /app
+
+# Copy package.json and package-lock.json
 COPY package*.json ./
+
+# Install dependencies
 RUN npm install
-COPY . ./
+
+# Copy the rest of the application code
+COPY . .
+
+# Build the application
 RUN npm run build
 
-# Step 2: Serve the React app with Nginx
-FROM nginx:latest
-COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# Expose port 3000
+EXPOSE 3000
+
+CMD ["npm", "run", "start"]
