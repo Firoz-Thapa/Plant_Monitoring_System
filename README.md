@@ -1,6 +1,6 @@
 # 🌱 Plant Monitoring System
 
-The **Plant Monitoring System** is an IoT solution designed to monitor the health of plants by collecting environmental data such as soil moisture. This system ensures efficient plant care by providing real-time data visualization and actionable insights.
+The **Plant Monitoring System** is an IoT solution designed to monitor the health of plants by collecting environmental data such as soil moisture. This system ensures efficient plant care by providing real-time data visualization.
 
 ## 🛠️ Key Features
 
