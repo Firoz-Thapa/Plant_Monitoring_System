@@ -4,7 +4,7 @@ The **Plant Monitoring System** is an IoT solution designed to monitor the healt
 
 ## 🛠️ Key Features
 
-- **Sensor Integration:** Collects temperature, humidity, and soil moisture data using sensors.
+- **Sensor Integration:** Collects soil moisture data using sensors.
 - **IoT Communication:** Sends collected data to the cloud via HTTP POST requests.
 - **Backend Processing:** A robust Node.js backend processes and stores data in a database.
 - **Data Visualization:** Real-time data visualization through a user-friendly web interface.
