@@ -3,13 +3,16 @@ import cors from 'cors';
 import { createServer } from 'http';
 import { WebSocketServer } from 'ws';
 import { InfluxDB, Point } from '@influxdata/influxdb-client';
+import dotenv from 'dotenv';
+
+// Load environment variables from .env file
+dotenv.config();
 
 // InfluxDB Configuration
-const url = "http://firoz.northeurope.cloudapp.azure.com:8086/";
-const token = "XCatDggVjAP3fISlHktNZHvZ51M-pnKHpvD34r4S7G5GytF5Fy_cUr4jxftUzE2UVv4o2nccSzXxasIiruwEMA==";
-const org = "LAB";
-const bucket = "plant-monitoring-system";
-
+const url = process.env.INFLUX_URL;
+const token = process.env.INFLUX_TOKEN;
+const org = process.env.INFLUX_ORG;
+const bucket = process.env.INFLUX_BUCKET;
 
 const client = new InfluxDB({ url, token });
 const writeApi = client.getWriteApi(org, bucket);
