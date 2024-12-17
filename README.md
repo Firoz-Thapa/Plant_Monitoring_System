@@ -103,6 +103,7 @@ sudo systemctl enable influxdb
 ```
 ### 6. 📊 Dashboard Preview
 Link to the Web site : http://20.238.28.249/
+
 The dashboard displays: 
 - Real-Time Soil Moisture with graphs.
 - Historical data for the past hour.
