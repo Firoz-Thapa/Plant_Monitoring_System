@@ -5,8 +5,8 @@ import urequests
 import network
 
 # Wi-Fi Setup
-ssid = "Firoz thapa"  # Replace with your Wi-Fi SSID
-password = "Firoz123"  # Replace with your Wi-Fi password
+ssid = ""  # Replace with your Wi-Fi SSID
+password = ""  # Replace with your Wi-Fi password
 
 # InfluxDB Configuration
 INFLUXDB_URL="http://firoz.northeurope.cloudapp.azure.com:8086"
