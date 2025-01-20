@@ -5,15 +5,14 @@ import urequests
 import network
 
 # Wi-Fi Setup
-ssid = "Firoz thapa"  # Replace with your Wi-Fi SSID
-password = "Firoz123"  # Replace with your Wi-Fi password
+ssid = ""  # Replace with your Wi-Fi SSID
+password = ""  # Replace with your Wi-Fi password
 
 # InfluxDB Configuration
-INFLUXDB_URL="http://firoz.northeurope.cloudapp.azure.com:8086"
-INFLUXDB_BUCKET="plant-monitoring-system"
-INFLUXDB_ORG="LAB"
-INFLUXDB_TOKEN="XCatDggVjAP3fISlHktNZHvZ51M-pnKHpvD34r4S7G5GytF5Fy_cUr4jxftUzE2UVv4o2nccSzXxasIiruwEMA=="
-
+INFLUXDB_URL="" # Your influx db url 
+INFLUXDB_BUCKET="" # Your influx db bucket
+INFLUXDB_ORG="" # Your influx db org
+INFLUXDB_TOKEN="" #Your influx db token
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
