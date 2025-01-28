@@ -1,0 +1,31 @@
+[33m716edd2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{0}: pull --tags origin master: Merge made by the 'ort' strategy.
+[33m1fae509[m HEAD@{1}: commit: fixed security issues
+[33m13a6366[m HEAD@{2}: commit: New Commit
+[33madfd1f8[m HEAD@{3}: commit: New Commit
+[33m34193dd[m HEAD@{4}: pull --tags origin master: Merge made by the 'ort' strategy.
+[33m76f8ba7[m HEAD@{5}: commit: docker composed
+[33md204241[m HEAD@{6}: commit: updated the server and frontend
+[33m4043abc[m HEAD@{7}: commit (merge): Resolved merge conflicts and updated
+[33m89a8762[m HEAD@{8}: commit: docker added
+[33m7486193[m HEAD@{9}: commit: sensor data sent succesfully to influx db
+[33m3f73898[m HEAD@{10}: commit: added new comments
+[33m3caf711[m HEAD@{11}: commit: updated README.md
+[33m9b67980[m HEAD@{12}: commit: added moisture.py
+[33m4d84290[m HEAD@{13}: commit: Configured Influx db
+[33m5219ee1[m HEAD@{14}: commit: updated PlantMonitoringDashboard.js
+[33m53240ec[m HEAD@{15}: commit: updated app.js & plant monitoringdashboard.js
+[33m48f8efa[m HEAD@{16}: checkout: moving from master to master
+[33m48f8efa[m HEAD@{17}: checkout: moving from main to master
+[33mfdd7eb7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mrm[m[33m)[m HEAD@{18}: checkout: moving from master to main
+[33m48f8efa[m HEAD@{19}: commit: Added text.py
+[33mb705018[m HEAD@{20}: commit: Added python file
+[33mbfc8c0c[m HEAD@{21}: checkout: moving from main to master
+[33mfdd7eb7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mrm[m[33m)[m HEAD@{22}: checkout: moving from main to main
+[33mfdd7eb7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mrm[m[33m)[m HEAD@{23}: checkout: moving from main to main
+[33mfdd7eb7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mrm[m[33m)[m HEAD@{24}: checkout: moving from master to main
+[33mbfc8c0c[m HEAD@{25}: commit: fixed the api security issues
+[33md4c8177[m HEAD@{26}: commit: updated the fireconfig file
+[33m0948fac[m HEAD@{27}: checkout: moving from main to master
+[33mfdd7eb7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mrm[m[33m)[m HEAD@{28}: checkout: moving from master to main
+[33m0948fac[m HEAD@{29}: commit: Initial commit
+[33m6f9aaa1[m HEAD@{30}: commit (initial): Initialize project using Create React App
