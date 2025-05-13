@@ -2,8 +2,6 @@
 
 A complete IoT solution for monitoring plant soil moisture in real-time, with data visualization and alerts.
 
-[![Plant Monitoring System Demo](https://img.youtube.com/vi/1gQZejyTcGo/0.jpg)](https://youtu.be/1gQZejyTcGo)
-
 ## Overview
 
 This plant monitoring system consists of three main components:
